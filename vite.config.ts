@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Dirham-coin-pk/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
